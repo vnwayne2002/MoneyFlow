@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Unzip project
-        run: unzip -q MoneyFlow_Android_Project.zip -d project
+        run: unzip -q MoneyFlow_Android_Project_Custom.zip -d project
 
       - uses: actions/setup-java@v4
         with:
